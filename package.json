@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "wsl-mounter",
   "version": "0.1.0",
   "description": "Global CLI to mount Windows folders into WSL via drvfs",
