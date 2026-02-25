@@ -2,6 +2,8 @@
 
 `wsl-mounter` is a small CLI for WSL that mounts a Windows subfolder into `/mnt/<name>` using `drvfs`.
 
+This is especially useful when using Claude Code or Codex in a safe mannor: only mount the folder/project you need.
+
 ## What it does
 
 Given a subfolder name, it mounts:
@@ -21,6 +23,10 @@ Example:
 - `sudo` access
 - A valid Windows base path
 - Node.js (to run/install the CLI)
+
+## Tips
+
+- Turn off automount in /etc/wsl.config
 
 ## Install
 
