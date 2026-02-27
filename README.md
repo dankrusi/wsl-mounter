@@ -33,6 +33,12 @@ Example:
 From this repository:
 
 ```bash
+npm install -g https://github.com/dankrusi/wsl-mounter
+```
+
+From source:
+
+```bash
 npm install -g .
 ```
 
